@@ -26,8 +26,8 @@ Website ini merupakan halaman promosi dan distribusi dari **Aplikasi Mobile Al-Q
 > Metodologi: Extreme Programming | Pengujian: Blackbox Testing
 
 🌐 **Preview Website:**  
-![Preview 1](preview1.jpg)  
-![Preview 2](preview2.jpg)
+![Preview 1](preview1.png)  
+![Preview 2](preview2.png)
 
 ---
 
