@@ -18,7 +18,7 @@ Website ini merupakan halaman promosi dan distribusi dari **Aplikasi Mobile Al-Q
 - Responsif dan dapat dibuka baik di desktop maupun mobile
 
 📥 **Link Download Aplikasi:**
-[Klik di sini untuk mengunduh APK](https://drive.google.com/your-gdrive-link-di-sini)
+[Klik di sini untuk mengunduh APK](BersamaQuran.apk)
 
 🧪 **Dikembangkan dalam rangka:**
 > Skripsi Sarjana – Program Studi Teknik Informatika  
