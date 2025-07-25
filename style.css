@@ -2,13 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Cairo', sans-serif;
 }
 
 body {
   line-height: 1.6;
-  background: #f7f9fc;
-  color: #333;
+  background: #f9fdf9;
+  color: #2f3e2f;
 }
 
 .container {
@@ -19,34 +19,39 @@ body {
 }
 
 .hero {
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to bottom, #1a472a, #245d3c);
   color: #fff;
   padding: 80px 20px;
   text-align: center;
+  background-image: url('https://i.imgur.com/HbUd08N.png');
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 .hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
-.hero p {
-  font-size: 1.2rem;
+.tagline {
+  font-size: 1.3rem;
   margin-bottom: 30px;
 }
 
 .btn-download {
-  padding: 12px 25px;
-  background: #ffcc00;
+  padding: 14px 28px;
+  background: #f7e12b;
   color: #000;
   font-weight: bold;
   border-radius: 30px;
   text-decoration: none;
-  transition: background 0.3s;
+  transition: background 0.3s ease;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 .btn-download:hover {
-  background: #e6b800;
+  background: #e4c900;
 }
 
 .features {
@@ -56,8 +61,9 @@ body {
 }
 
 .features h2 {
+  font-size: 2.2rem;
   margin-bottom: 40px;
-  font-size: 2rem;
+  color: #1a472a;
 }
 
 .features-grid {
@@ -67,9 +73,11 @@ body {
 }
 
 .feature-box {
-  background: #eef2f7;
+  background: #eefaf0;
+  border-left: 5px solid #1a472a;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
 }
 
 .preview {
@@ -79,19 +87,25 @@ body {
 
 .preview h2 {
   margin-bottom: 30px;
+  color: #1a472a;
 }
 
 .preview img {
   width: 100%;
-  max-width: 500px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  max-width: 480px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
 
 footer {
-  background: #222;
-  color: #aaa;
+  background: #1a472a;
+  color: #dcdcdc;
   text-align: center;
   padding: 20px 10px;
   font-size: 0.9rem;
+}
+
+footer a {
+  color: #f7e12b;
+  text-decoration: none;
 }
