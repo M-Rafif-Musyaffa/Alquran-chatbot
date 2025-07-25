@@ -29,12 +29,12 @@ body {
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   margin-bottom: 10px;
 }
 
 .tagline {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-bottom: 30px;
 }
 
@@ -47,7 +47,6 @@ body {
   text-decoration: none;
   transition: background 0.3s ease;
   display: inline-block;
-  margin-top: 10px;
 }
 
 .btn-download:hover {
@@ -61,7 +60,7 @@ body {
 }
 
 .features h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin-bottom: 40px;
   color: #1a472a;
 }
@@ -90,11 +89,18 @@ body {
   color: #1a472a;
 }
 
-.preview img {
+.preview-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.preview-images img {
   width: 100%;
-  max-width: 480px;
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 footer {
@@ -109,18 +115,3 @@ footer a {
   color: #f7e12b;
   text-decoration: none;
 }
-
-.preview-images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.preview-images img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-}
-
